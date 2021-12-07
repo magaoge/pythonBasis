@@ -1,0 +1,41 @@
+test_city (jie_kou_test.test_case.CaseTest) ... FAIL
+test_city (jie_kou_test.test_case.CaseTest) ... FAIL
+test_city (jie_kou_test.test_case.CaseTest) ... FAIL
+
+======================================================================
+FAIL: test_city (jie_kou_test.test_case.CaseTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\project_python\PythonTest\jie_kou_test\test_case.py", line 21, in test_city
+    self.assertEqual("查询成功!",res.json()["reason"],"*********{}**********不是我们期望的值！".format(res.json()["reason"]))
+AssertionError: '查询成功!' != 'æ\x8e¥å\x8f£å\x9c°å\x9d\x80ä¸\x8då\xad\x98å\x9c¨'
+- 查询成功!
++ æ¥å£å°åä¸å­å¨
+ : *********æ¥å£å°åä¸å­å¨**********不是我们期望的值！
+
+======================================================================
+FAIL: test_city (jie_kou_test.test_case.CaseTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\project_python\PythonTest\jie_kou_test\test_case.py", line 21, in test_city
+    self.assertEqual("查询成功!",res.json()["reason"],"*********{}**********不是我们期望的值！".format(res.json()["reason"]))
+AssertionError: '查询成功!' != 'æ\x8e¥å\x8f£å\x9c°å\x9d\x80ä¸\x8då\xad\x98å\x9c¨'
+- 查询成功!
++ æ¥å£å°åä¸å­å¨
+ : *********æ¥å£å°åä¸å­å¨**********不是我们期望的值！
+
+======================================================================
+FAIL: test_city (jie_kou_test.test_case.CaseTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\project_python\PythonTest\jie_kou_test\test_case.py", line 21, in test_city
+    self.assertEqual("查询成功!",res.json()["reason"],"*********{}**********不是我们期望的值！".format(res.json()["reason"]))
+AssertionError: '查询成功!' != 'æ\x8e¥å\x8f£å\x9c°å\x9d\x80ä¸\x8då\xad\x98å\x9c¨'
+- 查询成功!
++ æ¥å£å°åä¸å­å¨
+ : *********æ¥å£å°åä¸å­å¨**********不是我们期望的值！
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.387s
+
+FAILED (failures=3)
